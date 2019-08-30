@@ -40,6 +40,8 @@
     <div th:replace="fragments :: display">
     </div>
 
+    <p th:unless="${jobs} and ${jobs.size()}">No results</p>
+
 
 </div>
 
